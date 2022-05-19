@@ -1,8 +1,17 @@
 # Springboot-hibernateJPA-Reactjs-connect
 This repository is about the way to connect Reactjs project using Axios library with Spring boot rest api, and connecting Spring boot with mySql database using Spring data jpa and hibernate
 
-Step by step doing
 REQUIRE: Java version 11, mySql, IDE to run spring boot and reactjs( you can download spring tool suite to run two )
+
+HOW TO RUN THIS PROJECT:
+ -Front end: open your terminal and run command: 
+      +npm i
+      +npm install -g sass
+      +npm install react-router
+      +npm install react-router-dom
+ -Back end & database: create a database has name in application.properties file in back end project
+
+STEP BY STEP DOING
 BACK END
  - Create xample controller to consume request from Front End
 1. create new starter spring boot
