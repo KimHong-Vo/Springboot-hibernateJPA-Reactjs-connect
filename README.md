@@ -4,12 +4,12 @@ This repository is about the way to connect Reactjs project using Axios library 
 REQUIRE: Java version 11, mySql, IDE to run spring boot and reactjs( you can download spring tool suite to run two )
 
 HOW TO RUN THIS PROJECT:
- -Front end: open your terminal and run command: 
-      +npm i
-      +npm install -g sass
-      +npm install react-router
-      +npm install react-router-dom
- -Back end & database: create a database has name in application.properties file in back end project
+ - Front end: open your terminal and run command: 
+      + npm i
+      + npm install -g sass
+      + npm install react-router
+      + npm install react-router-dom
+ - Back end & database: create a database has name in application.properties file in back end project
 
 STEP BY STEP DOING
 BACK END
