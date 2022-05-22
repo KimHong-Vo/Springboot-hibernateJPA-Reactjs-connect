@@ -17,6 +17,7 @@ public class WorkSpace {
 		this.description = newDescription;
 				
 	}
+	public WorkSpace(){}
 	public String getName() {
 		return this.name;
 	
