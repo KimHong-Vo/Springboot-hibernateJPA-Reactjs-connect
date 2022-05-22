@@ -42,12 +42,8 @@ public class WorkSpaceController {
 	
 	@CrossOrigin  // to ignore cors policy
 	@GetMapping("/getWorkspace")
-	public String getAllWS() {
-//	    workSpaceRepository.findAll();
-//	    for(int i=0;i<students.size();i++) {
-//	    	System.out.println("Workspace: name-" + students.get(i).getName() + "; description-"+students.get(i).getDescription());
-//	    }
-	    return "see at console";
+	public Iterable<WorkSpace> getAllWS() {
+	    return workSpaceRepository.findAll();
 	}
 	
 } 
