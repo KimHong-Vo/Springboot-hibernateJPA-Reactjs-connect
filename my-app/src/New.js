@@ -16,7 +16,7 @@ const New = () => {
         const axios = require('axios');
         axios({
             method: 'get',  // defaut is get
-            url: 'http://192.168.1.78:8080/hello',
+            url: 'http://192.168.1.78:8080/workspace/myWorkspace',
             responseType: 'json',
             params: {   // data instead params when method isn't get
               name: 'Hong workspace'
