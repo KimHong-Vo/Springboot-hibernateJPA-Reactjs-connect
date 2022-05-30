@@ -9,6 +9,7 @@ HOW TO RUN THIS PROJECT:
       + npm install -g sass
       + npm install react-router
       + npm install react-router-dom
+      + npm install axios
       + open file New.js, at line 19, change url to : http://yourLocalIp:8080/workspace/myWorkspace
       + *find your local ip by open your terminal and run ipconfig command, it's at IPv4 address
  - Back end & database: create a database has name in application.properties file in back end project
